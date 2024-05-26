@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "60805880408",
+    "project_id": "p-of-sys-team4",
+    "storage_bucket": "p-of-sys-team4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60805880408:android:9eebec77fbde8246e5882d",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo9dj0tqfSKbHzUckOHYY4RgQWWRQDjmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
