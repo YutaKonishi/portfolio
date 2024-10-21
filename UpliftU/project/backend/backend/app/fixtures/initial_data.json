@@ -1,0 +1,126 @@
+[
+    {
+        "model": "users.CustomUser",
+        "pk": "1",
+        "fields": {
+            "email": "123@gmail.com",
+            "user_name": "kinoko",
+            "is_staff": false,
+            "is_active": false,
+            "profile": "test user 1",
+            "color": "yellow"
+        }
+        
+    },
+    {
+        "model": "users.CustomUser",
+        "pk": "2",
+        "fields": {
+            "email": "naruto@qq.com",
+            "user_name": "naruto",
+            "is_staff": false,
+            "is_active": false,
+            "profile": "test user 2",
+            "color": "yellow"
+        }
+    },
+    {
+        "model": "app.Receiver",
+        "pk": "2a17c3cb-8124-473c-b83b-cad4f9cf18ad",
+        "fields": {
+            "age": 17,
+            "gender": "F",
+            "relationship": "友人",
+            "receiver_name": "lily",
+            "hobbies": "game",
+            "user_id": 1
+        }
+        
+    },
+    {
+        "model": "app.Receiver",
+        "pk": "69095593-fd43-4c8b-a937-0e43476ace93",
+        "fields": {
+            "age": 20,
+            "gender": "M",
+            "relationship": "友人",
+            "receiver_name": "sasuke",
+            "hobbies": "workout",
+            "user_id": 2
+        }  
+        
+    },
+    {
+        "model": "app.Project",
+        "pk": "f240f212-dfcd-46fe-928d-7214f971ea4e",
+        "fields": {
+            "question_amount": 2,
+            "genre": "??",
+            "giftPurchaseDate": "2024-07-03T17:47:00+09:00",
+            "giftGivingDate": "2024-07-13T17:47:00+09:00",
+            "receiver": "2a17c3cb-8124-473c-b83b-cad4f9cf18ad",
+            "project_name": "game gift",
+            "budget": 10000,
+            "present_purpose": "fun",
+            "frequency": 2,
+            "isCompleted": false,
+            "remark": "unknown",
+            "user_id":"1"
+        }    
+    },
+    {
+        "model": "app.Project",
+        "pk": "1632d2b8-16ac-4e27-8628-117dce732453",
+        "fields": {
+            "question_amount": 5,
+            "genre": "?????????",
+            "giftPurchaseDate": "2024-07-06T18:32:00+09:00",
+            "giftGivingDate": "2024-08-10T18:32:00+09:00",
+            "receiver": "69095593-fd43-4c8b-a937-0e43476ace93",
+            "project_name": "lol",
+            "budget": 500,
+            "present_purpose": "use",
+            "frequency": 100,
+            "isCompleted": true,
+            "remark": "sasuke test",
+            "user_id":"1"
+        }    
+    },
+
+
+    {
+        "model": "app.Message",
+        "pk": "d12278e2-b266-405f-a4fe-fea3200e2c31",
+        "fields": {
+            "question": "なになに?",
+            "answer": "意味不明",
+            "project": "f240f212-dfcd-46fe-928d-7214f971ea4e",
+            "createdAt": "2024-07-02T17:48:00+09:00",
+            "dueDate": "2024-07-19T17:48:00+09:00",
+            "isCompleted": false
+        }    
+    },
+    {
+        "model": "app.Message",
+        "pk": "603beef4-214e-408a-86f5-8ce46649ac26",
+        "fields": {
+            "question": "何が好き？",
+            "answer": "知らない",
+            "project": "1632d2b8-16ac-4e27-8628-117dce732453",
+            "createdAt": "2024-07-19T17:55:00+09:00",
+            "dueDate": "2024-07-31T17:56:00+09:00",
+            "isCompleted": true
+        }
+        
+    },
+    {
+        "model": "app.GiftHistory",
+        "pk": "3a7dc4fd-5a7e-4ad9-a521-c9f96fcadcba",
+        "fields": {
+            "gift": "鼬",
+            "receiver": "69095593-fd43-4c8b-a937-0e43476ace93"
+        }
+   
+    }
+  ]
+  
